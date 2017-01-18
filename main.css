@@ -4,4 +4,17 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #eceff1;
+}
+
+.search-results {
+  padding-bottom: 10px;
+}
+
+.search-item {
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
 }
