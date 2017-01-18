@@ -20,14 +20,6 @@ function setSearchTerm(state, element) {
   state.query.q = element.val();
 }
 
-function setNextPageToken (state, data) {
-  state.nextPageToken = data.nextPageToken;
-}
-
-function setPrevPageToken (state, data) {
-  state.query.nextPage = data.prevPageToken;
-}
-
 //render functions
 function renderPage(data) {
   renderResults(data);
